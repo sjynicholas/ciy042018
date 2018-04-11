@@ -1,3 +1,4 @@
-.text1{
-    background-color: burlywood
+.myUl{
+    list-style-type: lower-alpha;
+    list-style-position: inherit;
 }

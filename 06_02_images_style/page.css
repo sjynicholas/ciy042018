@@ -2,12 +2,13 @@
 
 .my-container{
 	border: 1px solid #aaa;
-	background-color: white;
+	/*background-color: white;*/
 	max-width: 400px;
 	margin: 110px auto 10px auto;
 	padding: 1rem;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 	font-family: "Lato";
+	background-image: url("stripe_background.png")
 }
 .my-container h1{
 	text-align: center;
@@ -28,16 +29,17 @@
 /*5. create a border: 1px solid #aaa*/
 /*6. shift the image up with margin-top: -100px*/
 .my-face{
-	
-
-
-
-
-
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	margin-top: -100px;
 }
 
 /*stripe generator: http://www.stripegenerator.com/*/
-/*7. set background image as: stripe_background.png*/
+/*7. set background image as: stripe_background.png
 .my-body{
-	
-}
+	background-image: url("stripe_background.png")
+}*/
