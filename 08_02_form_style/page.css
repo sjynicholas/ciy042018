@@ -61,7 +61,7 @@ input[type=submit]{
 /*hovering state, similar to a:hover */
 input[type=submit]:hover{
 	/*12. set background color to: orangered */
-	background-color: orangered;
+	background-color: orangered;		
 }
 
 /*this optional style removes the yellow background of chrome's autofill*/

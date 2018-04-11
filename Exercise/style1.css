@@ -2,3 +2,18 @@
     list-style-type: lower-alpha;
     list-style-position: inherit;
 }
+
+@media(min-width: 768px){
+
+    .myTitle{
+        font-size:60px;
+    }
+}
+
+@media(max-width: 768px){
+
+    .myTitle{
+        font-size:20px;
+        color:red;
+    }
+}
